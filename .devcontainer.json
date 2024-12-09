@@ -1,0 +1,12 @@
+{
+    "name": "Python",
+    "image": "mcr.microsoft.com/python:3.9",
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python"
+    },
+    "forwardPorts": [5000],
+    "mounts": [
+      "source=.,target=/workspace,type=bind"
+    ]
+  }
+  
