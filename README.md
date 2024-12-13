@@ -8,22 +8,26 @@ Prédiction du prix : Ce projet permet de prédire le prix médian des maisons d
 
 ## Installation 
 
-### 1- Cloner le dépôt : 
+### 1- Cloner le dépôt 
+
 git clone https://github.com/VivoAZ/Projet-prediction-de-prix.git
 
 cd Projet-prediction-de-prix 
 
-### 2- Créer et activer un environnement virtuel (venv) : 
+### 2- Créer et activer un environnement virtuel (venv) 
+
 python -m venv env 
 
 source env/bin/activate  # Pour Linux/macOS 
 
 env\Scripts\activate     # Pour Windows 
 
-### 3- Installer les dépendances : 
+### 3- Installer les dépendances 
+
 pip install -r requirements.txt
 
 ## Exécution 
+
 Commande pour lancer le projet 
 python main.py 
 
